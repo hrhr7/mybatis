@@ -2,12 +2,11 @@ package com.kh.mybatis;
 
 import lombok.Data;
 
-import java.util.List;
-
 @Data
-public class Company {
+public class Employee {
     private int id;
+    private int companyId;
     private String name;
     private String address;
-    private List<Employee> employeeList;
+
 }
